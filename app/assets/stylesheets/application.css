@@ -1,0 +1,52 @@
+.body_show {
+  margin: 30px;
+}
+
+.title {
+  margin-bottom: 20px;
+  margin-left: 20px
+}
+
+.body {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.hello {
+  margin: 30px;
+  line-height: 30px;
+}
+
+.good {
+  font-size: 25px;
+}
+
+.explain{
+  margin-left: 30px;
+}
+
+.start {
+  margin-left: 30px;
+}
+
+.table {
+  display: table;
+  box-sizing: border-box;
+}
+
+.edit_message {
+  border-radius: 5px;
+  padding: 16px 24px;
+  margin: 16px 0px;
+  color: #0067C0;
+}
+
+.show_message {
+  border-radius: 5px;
+  padding: 16px 24px;
+  margin: 16px 0px;
+  color: #0067C0;
+}
+
+}
+

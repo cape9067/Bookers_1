@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="application.css" />
+  </head>
+  
+<div class="show_message">
+  <%= flash[:notice] %>
+</div>
+<body class="body_show">
+<div class="title">
+ <strong>Title:</strong> <%= @book.title %>
+</div>
+
+<div class="body">
+ <strong>Body:</strong> <%= @book.body %>
+</div>
+
+  <%= link_to "Edit", edit_book_path(@book) %>
+  |
+  <a href="/books">Back</a>
+</body>
+</html>
